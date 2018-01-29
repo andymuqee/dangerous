@@ -1,0 +1,150 @@
+.border-right {
+    width: 60px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.store-rcontent {
+    margin-left: 60px;
+    border-left: 2px solid #333;
+    padding-left: 10px;
+}
+
+.store-rcontent ul li {
+    background: #fff;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.store-rcontent ul li span {
+    font-size: 14px;
+    position: absolute;
+    bottom: 7px;
+    left: 49px;
+
+}
+
+.store-rcontent ul li .store-rcontent-list {
+    font-size: 14px;
+    position: absolute;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.common-whith-div {
+    display: flex;
+    line-height: 35px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.common-whith {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #a8e4ff;
+}
+
+.border-bot {
+    border-bottom: 1px solid #ddd;
+}
+
+.border-rig {
+    border-right: 1px solid #ddd;
+}
+
+/*.white{
+  background:#fff url(../../img/images/con_roomst_1.png) no-repeat;
+}
+.blue{
+  background:#029dfb url(../../img/images/con_roomst_3.png) no-repeat;
+  color:#fff;
+}*/
+.yellow {
+    background: #ffd13e;
+    color: #fff;
+}
+
+.pink {
+    background: #fb8181;
+    color: #fff;
+}
+
+.green {
+    background: #2be53a;
+    color: #fff;
+
+}
+
+/*.gray{
+  background:#dbdcdc url(../../img/images/con_roomst_5.png) no-repeat;
+  color:#fff;
+}*/
+
+@media only screen and (min-width: 1600px) {
+    .border-right-height1 {
+        padding: 30px 0px;
+    }
+
+    .store-rcontent-height1 {
+        height: auto;
+    }
+
+    .store-rcontent ul li {
+        width: 134px;
+        height: 104px;
+    }
+
+    .border-right-height2 {
+        height: 104px;
+        line-height: 104px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .border-right-height1 {
+        height: 175px;
+        line-height: 175px;
+    }
+
+    .store-rcontent-height1 {
+        height: auto;
+    }
+
+    .store-rcontent ul li {
+        width: 104px;
+        height: 84px;
+    }
+
+    .border-right-height2 {
+        height: 84px;
+        line-height: 84px;
+    }
+
+    .store-rcontent ul li span {
+        font-size: 12px;
+        position: absolute;
+        bottom: 4px;
+        left: 40px;
+    }
+
+    .store-rcontent ul li .store-rcontent-list {
+        height: 56px;
+        line-height: 56px;
+    }
+
+    .store-rcontent ul li {
+        background-size: 30px 30px;
+    }
+
+    .common-whith-div {
+        line-height: 28px;
+
+    }
+}

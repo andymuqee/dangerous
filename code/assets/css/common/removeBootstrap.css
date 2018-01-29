@@ -1,0 +1,29 @@
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    display: inline-block !important;
+    border: 1px solid #ddd;
+}
+
+label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+select {
+    height: 32px !important;
+    border-radius: 0px !important;
+
+}
+
+input {
+    border-radius: 0px !important;
+}
+
+textarea {
+    border-radius: 0px !important;
+    resize: none; /*禁止拖动*/
+}
+

@@ -1,0 +1,447 @@
+.play {
+    width: 320px;
+    height: 324px;
+    margin: 1px auto 0;
+    background: #999;
+    font: 12px Arial;
+    margin-bottom: 10px;
+}
+
+.big_pic {
+    width: 320px;
+    height: 270px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background: #222;
+    position: relative;
+}
+
+.big_pic li {
+    width: 320px;
+    height: 270px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.small_pic {
+    width: 320px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+}
+
+.small_pic ul {
+    height: 54px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.small_pic li {
+    width: 64px;
+    height: 54px;
+    float: left;
+    padding-right: 10px;
+    cursor: pointer;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.small_pic img {
+    width: 64px;
+    height: 54px;
+}
+
+/*页面总体样式*/
+
+.wrap {
+    width: 100%;
+    height: auto;
+    background: #212f3f;
+    position: relative;
+}
+
+.nav {
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav h4 {
+    margin: 0 30px;
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.myrow {
+    margin: 15px;
+}
+
+.main {
+    float: left;
+    width: 100%;
+}
+
+.content {
+    height: 560px;
+    margin: 0 355px;
+    background-color: #21344a;
+    border-radius: 10px;
+}
+
+.submain {
+    float: left;
+    width: 345px;
+    height: 560px;
+    margin-left: -100%;
+    background-color: #21344a;
+    border-radius: 10px;
+}
+
+.sidebar {
+    float: left;
+    width: 345px;
+    height: 560px;
+    margin-left: -345px;
+}
+
+.bg .header {
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    background: #24374c;
+    padding: 0 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bg .header h5 {
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.bg .header i {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.row-left {
+    width: 340px;
+}
+
+.page-content {
+    padding-bottom: 10px;
+}
+
+.left-article {
+    padding: 0 10px;
+}
+
+.left-article h4 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.share {
+    color: #5f738f;
+}
+
+.list1 {
+    padding-top: 10px;
+}
+
+.list1 div {
+    float: left;
+    width: auto;
+    height: 240px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    line-height: 240px;
+    vertical-align: middle;
+}
+
+.list1 div img {
+    vertical-align: middle;
+}
+
+.list1 div span {
+    position: absolute;
+    bottom: -95px;
+    left: 20px;
+    color: #fff;
+}
+
+.list1 div.li1 {
+    width: 48%;
+    background: #e3b41d;
+}
+
+.list1 div.li2 {
+    width: 48%;
+    background: #79ba2b;
+}
+
+.list1 div.li3 {
+    width: 97%;
+    background: #0074c5;
+}
+
+.list2 {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.list2 div {
+    float: left;
+    width: auto;
+    height: 240px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    line-height: 240px;
+    vertical-align: middle;
+}
+
+.list2 div img {
+    vertical-align: middle;
+}
+
+.list2 div span {
+    position: absolute;
+    bottom: -95px;
+    left: 20px;
+    color: #fff;
+}
+
+.list2 div.li4 {
+    width: 98%;
+    height: 210px;
+    background: #9569e2;
+}
+
+.list2 div.li5 {
+    width: 98%;
+    height: 270px;
+    background: #df4952;
+}
+
+.sidebar .sidebarRight1 {
+    background-color: #21344a;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar .sidebarRight2 {
+    background-color: #21344a;
+    border-radius: 10px;
+}
+
+.sidebar-p {
+    padding: 0 20px;
+    height: 63px;
+    margin-bottom: 0px;
+    color: #98abbc;
+}
+
+.right2-content {
+    height: 116px;
+    padding-top: 10px;
+
+}
+
+.sidebarRight2-ul {
+    padding: 0 20px;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.sidebarRight2-ul li {
+    float: left;
+    width: 31%;
+    height: 50px;
+    border: 1px solid #364961;
+    border-radius: 4px;
+    padding: 10px;
+    position: relative;
+}
+
+.sidebarRight2-ul li + li {
+    margin-left: 10px;
+}
+
+.img-div {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+
+.img-div p {
+    margin-bottom: 0px;
+    line-height: 1.3;
+    color: #cdcfd3;
+}
+
+.submain2 {
+    height: 270px;
+}
+
+.right2-bottom {
+    padding: 0 40px;
+    padding-top: 20px;
+    color: #cdcfd3;
+}
+
+.row2L-ul {
+    text-align: center;
+    float: left;
+    margin: 0 20px;
+    width: auto;
+    color: #98abbc;
+}
+
+.row2L-ul li {
+    float: left;
+    padding: 10px;
+    height: 70px;
+    position: relative;
+    width: 33%;
+}
+
+.row2L-ul li i {
+    color: #4d617c;
+}
+
+.content2 {
+    height: 270px;
+    color: #98abbc;
+}
+
+.sidevarR {
+    height: auto;
+}
+
+.sidebar2 {
+    color: #98abbc;
+    margin-bottom: 10px;
+}
+
+.sidebar2-content {
+    padding: 10px 20px;
+    width: auto;
+}
+
+.sidebar2 select {
+    background: transparent;
+    border: 1px solid #364961;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 60px;
+}
+
+.sidebar2 input {
+    background: transparent;
+    border: 1px solid #364961;
+    border-left: none;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -4px;
+    padding: 4px;
+}
+
+.sidebar2 input.btn {
+    padding: 0px 10px;
+    background: #0094ee;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    margin-top: -4px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.mytable {
+    width: 100%;
+}
+
+.mytable tr {
+    border: 1px solid #364961;
+}
+
+.mytable tr td {
+    padding-left: 10px;
+}
+
+.row2R-ul {
+    float: left;
+    padding: 0 10px;
+}
+
+.row2R-ul li {
+    float: left;
+    width: 108px;
+    height: 70px;
+    text-align: center;
+}
+
+.row2R-ul li img {
+    margin-bottom: 3px;
+}
+
+.row2R-ul li p {
+    color: #98abbc;
+}
+
+.right3-content {
+    padding-top: 2px;
+    height: 66px;
+}
+
+@media only screen and (max-width: 1560px) {
+    .list1 div.li1 {
+        width: 47%;
+        background: #e3b41d;
+    }
+
+    .list1 div.li2 {
+        width: 47%;
+        background: #79ba2b;
+    }
+
+    .list1 div.li3 {
+        width: 97%;
+        background: #0074c5;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .list1 div.li1 {
+        width: 46%;
+        background: #e3b41d;
+    }
+
+    .list1 div.li2 {
+        width: 46%;
+        background: #79ba2b;
+    }
+
+    .list1 div.li3 {
+        width: 97%;
+        background: #0074c5;
+    }
+}
