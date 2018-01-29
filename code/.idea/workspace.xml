@@ -152,6 +152,83 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="code" type="cbb8eebc:String" user="code" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="code" type="cbb8eebc:String" user="code" />
+              <item name="application" type="cbb8eebc:String" user="application" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Volumes" type="cbb8eebc:String" user="Volumes" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Volumes" type="cbb8eebc:String" user="Volumes" />
+              <item name="disk" type="cbb8eebc:String" user="disk" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Volumes" type="cbb8eebc:String" user="Volumes" />
+              <item name="disk" type="cbb8eebc:String" user="disk" />
+              <item name="Projects" type="cbb8eebc:String" user="Projects" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Volumes" type="cbb8eebc:String" user="Volumes" />
+              <item name="disk" type="cbb8eebc:String" user="disk" />
+              <item name="Projects" type="cbb8eebc:String" user="Projects" />
+              <item name="cn" type="cbb8eebc:String" user="cn" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Volumes" type="cbb8eebc:String" user="Volumes" />
+              <item name="disk" type="cbb8eebc:String" user="disk" />
+              <item name="Projects" type="cbb8eebc:String" user="Projects" />
+              <item name="cn" type="cbb8eebc:String" user="cn" />
+              <item name="kys" type="cbb8eebc:String" user="kys" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Volumes" type="cbb8eebc:String" user="Volumes" />
+              <item name="disk" type="cbb8eebc:String" user="disk" />
+              <item name="Projects" type="cbb8eebc:String" user="Projects" />
+              <item name="cn" type="cbb8eebc:String" user="cn" />
+              <item name="kys" type="cbb8eebc:String" user="kys" />
+              <item name="dangerous" type="cbb8eebc:String" user="dangerous" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="/" type="cbb8eebc:String" user="/" />
+              <item name="Volumes" type="cbb8eebc:String" user="Volumes" />
+              <item name="disk" type="cbb8eebc:String" user="disk" />
+              <item name="Projects" type="cbb8eebc:String" user="Projects" />
+              <item name="cn" type="cbb8eebc:String" user="cn" />
+              <item name="kys" type="cbb8eebc:String" user="kys" />
+              <item name="dangerous" type="cbb8eebc:String" user="dangerous" />
+              <item name="manage" type="cbb8eebc:String" user="manage" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,12 +305,12 @@
       <workItem from="1516803085035" duration="16000" />
       <workItem from="1516803162798" duration="13810000" />
       <workItem from="1517236042620" duration="604000" />
-      <workItem from="1517236711366" duration="590000" />
+      <workItem from="1517236711366" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96903000" />
+    <option name="totallyTimeSpent" value="97546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
